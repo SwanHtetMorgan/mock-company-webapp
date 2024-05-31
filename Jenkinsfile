@@ -15,7 +15,7 @@ pipeline {
                 {
                     steps{
                         echo "Application is under Testing"
-                        sh './gradle test'
+                        sh './gradlew test'
                     }
                 }
     }
